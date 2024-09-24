@@ -89,15 +89,20 @@
 
     <!-- Get Started Button -->
     <Button
-        android:id="@+id/btn_get_started"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/rectangle_3"
+        android:layout_width="264dp"
+        android:layout_height="142dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="167dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="785dp"
+        android:background="@drawable/rectangle_3"
         android:text="Get Started"
-        android:layout_marginBottom="30dp"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:background="@drawable/rounded_button"
         android:textColor="@android:color/white"
         android:drawableEnd="@drawable/ic_arrow"
-        android:drawablePadding="10dp" />
+        android:drawablePadding="10dp"
+        android:padding="10dp"
+        />
+
+
 </RelativeLayout>
