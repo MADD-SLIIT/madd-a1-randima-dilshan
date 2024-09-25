@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- Base application theme -->
+
+    <!-- Style for TextViews -->
+    <style name="CustomTextView">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <!-- Style for Buttons -->
+    <style name="CustomButton">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:padding">15dp</item>
+    </style>
+
+</resources>

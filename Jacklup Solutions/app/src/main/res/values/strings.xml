@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Jacklup Solutions</string>
     <string name="logo_desc">Logo of Jacklup Solutions</string>
+    <string name="background_image_desc">background_image_desc</string>
 </resources>

@@ -13,7 +13,7 @@
                 />
             <path
                 android:pathData="M0 0V142H264V0"
-                android:fillColor="#0FFFFFFF"
+                android:fillColor="#33FFFFFF"
                 />
             <path
                 android:pathData="M14 0H250C257.732 0 264 6.26801 264 14V128C264 135.732 257.732 142 250 142H14C6.26801 142 0 135.732 0 128V14C0 6.26801 6.26801 0 14 0Z"

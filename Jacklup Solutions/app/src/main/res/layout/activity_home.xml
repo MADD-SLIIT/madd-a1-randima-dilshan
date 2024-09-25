@@ -1,0 +1,207 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#0E0B1E"
+    android:padding="16dp">
+
+    <!-- Greeting Section -->
+    <LinearLayout
+        android:id="@+id/greeting_section"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true">
+
+        <!-- User Greeting Text -->
+        <TextView
+            android:id="@+id/greeting_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hi Randy Shawn!"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:layout_marginTop="50dp"
+            android:textStyle="bold" />
+
+        <!-- Morning Message -->
+        <TextView
+            android:id="@+id/morning_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Good Morning"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <!-- Notification Icon -->
+    <ImageView
+        android:id="@+id/notification_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/ic_bell"
+        android:contentDescription="Notifications"
+        android:layout_marginTop="50dp"
+        android:tint="@android:color/white" />
+
+    <!-- Search Bar -->
+    <LinearLayout
+        android:id="@+id/search_bar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/greeting_section"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal"
+        android:background="@drawable/rounded_search_bg"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/search_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_search"
+            android:tint="@android:color/darker_gray" />
+
+        <EditText
+            android:id="@+id/search_input"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Search"
+            android:background="@null"
+            android:paddingStart="10dp"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/darker_gray" />
+    </LinearLayout>
+
+    <!-- Welcome Card for Project Scheduling -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/project_schedule_card"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@id/search_bar"
+        android:layout_marginTop="16dp"
+        app:cardCornerRadius="15dp"
+        app:cardBackgroundColor="@color/your_desired_color"
+        app:cardElevation="4dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="16dp">
+
+            <!-- Welcome Text for Project -->
+            <TextView
+                android:id="@+id/welcome_project_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Welcome! \nLet’s schedule your Project"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!-- Project Illustration Image -->
+            <ImageView
+                android:id="@+id/project_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:src="@drawable/project_illustration"
+                android:contentDescription="Project Illustration" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- Popular Services Section -->
+    <TextView
+        android:id="@+id/popular_services_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Popular Services"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_below="@id/project_schedule_card"
+        android:layout_marginTop="24dp" />
+
+    <!-- Horizontal Scroll for Popular Services -->
+    <HorizontalScrollView
+        android:id="@+id/popular_services_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/popular_services_title"
+        android:layout_marginTop="16dp"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!-- Logo Design Service -->
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="200dp"
+                android:orientation="vertical"
+                android:padding="8dp"
+                android:background="@drawable/rounded_service_bg"
+                android:layout_marginEnd="10dp">
+
+                <ImageView
+                    android:id="@+id/logo_design_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:src="@drawable/logo_design"
+                    android:contentDescription="Logo Design" />
+
+                <TextView
+                    android:id="@+id/logo_design_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Logo Design"
+                    android:textColor="@android:color/white"
+                    android:textSize="16sp"
+                    android:layout_marginTop="8dp" />
+            </LinearLayout>
+
+            <!-- Web Design Service -->
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="200dp"
+                android:orientation="vertical"
+                android:padding="8dp"
+                android:background="@drawable/rounded_service_bg"
+                android:layout_marginEnd="10dp">
+
+                <ImageView
+                    android:id="@+id/web_design_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:src="@drawable/web_design"
+                    android:contentDescription="Web Design" />
+
+                <TextView
+                    android:id="@+id/web_design_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Web Design"
+                    android:textColor="@android:color/white"
+                    android:textSize="16sp"
+                    android:layout_marginTop="8dp" />
+            </LinearLayout>
+
+            <!-- Other services can be added similarly -->
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <!-- Bottom Navigation Bar -->
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bottom_navigation_background"
+        app:menu="@menu/bottom_nav_menu" />
+
+</RelativeLayout>
