@@ -96,7 +96,7 @@
                 android:id="@+id/welcome_project_text"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Welcome! \nLet’s schedule your Project"
+                android:text="Welcome! \nLet’s schedule your \nProject"
                 android:textColor="@android:color/white"
                 android:textSize="18sp"
                 android:textStyle="bold" />
@@ -201,7 +201,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:background="@drawable/bottom_navigation_background"
+
         app:menu="@menu/bottom_nav_menu" />
 
 </RelativeLayout>
