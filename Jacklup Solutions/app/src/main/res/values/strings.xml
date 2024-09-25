@@ -2,4 +2,19 @@
     <string name="app_name">Jacklup Solutions</string>
     <string name="logo_desc">Logo of Jacklup Solutions</string>
     <string name="background_image_desc">background_image_desc</string>
+    <string name="app_name">Jacklup Solutions</string>
+    <string name="logo_description">Jacklup Solutions Logo</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="signup_title">Join Jacklup Solutions</string>
+    <string name="signup_subtitle">for seamless digital service requests.</string>
+    <string name="signup_button_text">Sign up</string>
+    <string name="already_have_account">Already have an account? </string>
+    <string name="signin_text">Sign in</string>
+    <string name="terms_text">I agree to </string>
+    <string name="terms_link">Terms &amp; Conditions.</string>
+    <string name="social_text">Or continue with</string>
+    <string name="google_login">Google Login</string>
+    <string name="facebook_login">Facebook Login</string>
+    <string name="apple_login">Apple Login</string>
 </resources>

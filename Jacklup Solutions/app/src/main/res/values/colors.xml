@@ -19,4 +19,9 @@
     <color name="unselected_color">#808080</color>
     <color name="your_desired_color">#2C2C34</color> <!-- Gray for unselected -->
 
+
+
+    <color name="darker_gray">#B0B0B0</color>
+
+
 </resources>
