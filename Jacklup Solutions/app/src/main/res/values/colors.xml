@@ -9,14 +9,14 @@
     <color name="white">#FFFFFFFF</color>
     <color name="black_900">#000000</color>
     <color name="gray_200">#ebebeb</color>
-    <color name="colorPrimary">#FFFFFF</color>
-    <color name="colorPrimaryDark">#FBFBFB</color>
-    <color name="colorAccent">#D397BC</color>
+    <color name="colorPrimary">@color/purple_500</color>
+    <color name="colorPrimaryDark">#D6D4DE</color>
+    <color name="colorAccent">#FF6EC7</color>
     <color name="textColorWhite">#FFFFFF</color>
     <color name="darkGray">#2C2C34</color>
     <color name="lightGray">#3A3B4D</color>
     <color name="selected_color">#ffffff</color> <!-- Purple color for selected -->
-    <color name="unselected_color">#808080</color> <!-- Gray for unselected -->
-    <color name="your_desired_color">#3A3B4D</color>
+    <color name="unselected_color">#808080</color>
+    <color name="your_desired_color">#2C2C34</color> <!-- Gray for unselected -->
 
 </resources>
