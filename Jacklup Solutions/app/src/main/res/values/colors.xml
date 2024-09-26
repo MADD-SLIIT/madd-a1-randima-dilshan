@@ -24,5 +24,8 @@
     <color name="darker_gray">#B0B0B0</color>
     <color name="semi_transparent">#90FFFFFF</color>
 
+    <color name="pageBackground">#1E1E2A</color>
+    <color name="cardBackground">#2D2D3A</color>
+    <color name="purpleAccent">#A384FF</color>
 
 </resources>
